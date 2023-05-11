@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deposito EBAC</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Depósito da EBAC</h1>
+        <h2>Controle</h2>
+        <form id="form-deposito">
+            <input type="number" placeholder="Campo A" id="campoa" required>
+            <input type="number" placeholder="Campo B" id="campob" required>
+            <button type="submit" id="btn-enviar">Verificar</button>
+            <p class="error-message">Erro! O valor do campo B é menor que o do campo A</p>
+            <p class="success-message">Parabéns! O valor no campo B é maior que o do campo A.</p>
+            <p class="equal-message">Os dois números são iguais.</p>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
