@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 200px;
+}
+
+form {
+    text-align: center;
+    list-style: inside;
+    padding: 16px 0;
+}
+
+.tarefa-concluida {
+    text-decoration: line-through;
+}
+
+input, button {
+    height: 30px;
+}
+
+input {
+    width: 300px;
+}
+
+button {
+    width: 100px;
+}
+
+input:focus {
+    outline: 1px solid black;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button {
+    background-color: green;
+    border: none;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    list-style: inside;
+}
+
+ul li {
+    padding: 16px;
+}
+
+ul li:hover {
+    cursor: pointer;
+}
