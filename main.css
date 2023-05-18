@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    padding: 16px 0
+}
+
+.container {
+    text-align: center;
+}
+
+form input,
+button {
+    width: 240px;
+    height: 25px;
+}
+
+form label {
+    display: block ;
+}
+
+button {
+    border: none;
+    background-color: rgb(18, 197, 18);
+    cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
+.error {
+    color: rgb(255, 0, 0);
+    padding-top: 0;
+}
+
+.form-campo {
+    margin-bottom: 8px;
+}
