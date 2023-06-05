@@ -8,10 +8,6 @@
     row-gap: 4%;
 }
 
-@mixin paddingMix($x, $y) {
-    padding: $x, $y;
-}
-
 body {
     background-color: variaveis.$corDeFundo;
 }
