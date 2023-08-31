@@ -1,9 +1,10 @@
-let multiplicaNums2 = (num1: number, num2: number): number => num1 * num2;
-
-console.log(multiplicaNums2(5, 5))
-
-let saudacao = (nome: string) => {
-    console.log(`Olá ${nome}!`)
+let multiplicaNums2 = (num1: number, num2: number): number => {
+    return num1 * num2;
 }
 
-saudacao('Eduardo')
+let saudacao = (nome: string) => {
+    return `Olá, ${nome}!`
+}
+
+console.log(multiplicaNums2(8, 6))
+console.log(saudacao('Eduardo'))
